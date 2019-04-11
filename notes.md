@@ -21,3 +21,5 @@
 * The router is not the place to "do" something with requests, because that wouldn't scale well once an app becomes more complex.
 * Handling requests = answering requests.
 * Whenever expensive operations must be executed, these must be put in the background, and their events must be handled by the event loop.
+* exec() executes a shell command from within Node.js.
+
