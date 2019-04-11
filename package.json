@@ -1,0 +1,23 @@
+{
+  "name": "node-book",
+  "version": "1.0.0",
+  "description": "",
+  "main": "helloworld.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leslieeshea/node-book.git"
+  },
+  "keywords": [],
+  "author": "Leslie Shea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leslieeshea/node-book/issues"
+  },
+  "homepage": "https://github.com/leslieeshea/node-book#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  }
+}
