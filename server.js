@@ -5,7 +5,7 @@ function start(route, handle) {
   function onRequest(request, response) {
     const pathname = url.parse(request.url).pathname;
     /*eslint-disable-next-line*/
-    console.log('Request for ' + pathname + 'received.');
+    console.log('Request for ' + pathname + ' received.');
 
     route(handle, pathname);
 
