@@ -7,7 +7,7 @@ function start() {
 
   function sleep(milliSeconds) {
     const startTime = new Date().getTime();
-    while(new Date.getTime() < startTime + milliSeconds);
+    while(new Date().getTime() < startTime + milliSeconds);
   }
 
   sleep(10000);

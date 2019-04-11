@@ -7,10 +7,11 @@ function start(route, handle) {
     /*eslint-disable-next-line*/
     console.log('Request for ' + pathname + ' received.');
 
-    route(handle, pathname);
+    // route(handle, pathname);
 
     response.writeHead(200, { 'Content-Type': 'text/plain' });
-    response.write('Hello World');
+    const content = route(handle, pathname);
+    response.write(content);
     response.end();
   }
   http.createServer(onRequest).listen(8888);
