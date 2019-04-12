@@ -20,5 +20,8 @@
   "homepage": "https://github.com/leslieeshea/node-book#readme",
   "devDependencies": {
     "eslint": "^5.16.0"
+  },
+  "dependencies": {
+    "formidable": "^1.2.1"
   }
 }
